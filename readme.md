@@ -17,7 +17,8 @@ Let your viewers use the Half Life 1 VOX announcer to talk on stream.
     - run `npm install` to install dependancies
 - OBS
     - Enable Websockets in `tools > Websocket Server Settings`
-    - Create an OBS Media Source
+    - Create an OBS Text Source for the vox subtitles
+    - Create an OBS Media Source for the vox audio
         - Ensure loop is disabled
         - If you want to hear the VOX: change `Monitor off` to `Monitor and Output` for this source in the advanced audio properties window
         - You may also want to change hardware decoding and close file when inactive
