@@ -1,15 +1,13 @@
 # twitch hl1 vox
 Let your viewers use the Half Life 1 VOX announcer to talk on stream.
 
-<video src="/media/demo.mp4" height="240" controls></video>
+![screenshot](/media/screenshot.png)
 
 ### Disclaimers
 - I threw this together in a few hours, it's not perfect
 - You need to provide your own copy of the VOX sound files
 - Requires OBS
 - Only tested on windows (should work on any platform).
-
-![screenshot](/media/screenshot.png)
 
 ## Getting Started
 
