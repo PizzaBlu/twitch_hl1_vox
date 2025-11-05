@@ -71,7 +71,7 @@ export class OBSController {
     }
 
     async play_next() {
-        await new Promise(r => setTimeout(r, 50));
+        await new Promise(r => setTimeout(r, 20));
         const file = this.queue.shift();
         if (!file) {
             await this.stop();

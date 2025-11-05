@@ -1,7 +1,10 @@
 # twitch hl1 vox
 Let your viewers use the Half Life 1 VOX announcer to talk on stream.
 
-![screenshot](/screenshot.png)
+![screenshot](/media/screenshot.png)
+<video controls>
+  <source src="/media/demo.webm" type="video/webm">
+</video>
 
 ### Disclaimers
 - I threw this together in a few hours, it's not perfect
