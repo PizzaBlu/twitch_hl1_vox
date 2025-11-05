@@ -34,7 +34,7 @@ await client.connect();
 client.on('message', (channel, tags, message, self) => {
     if (self) return;
 
-    const parts = message.replaceAll(',', ' _comma').replaceAll('.', ' _period').toLowerCase().split(' ');
+    const parts = message.replaceAll(',', ' _comma').replaceAll('.', ' _period').toLowerCase().split(' ').filter(x=>String(x).length>0);
     const command = parts.shift();
     if (command != config.COMMAND) return;
 
