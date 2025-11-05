@@ -9,12 +9,14 @@ export function get_config() {
         PATH: '',
         
         OBS_SOURCE_NAME: 'hl1_vox',
+        OBS_TEXT_SOURCE_NAME: 'hl1_vox_text',
         OBS_HOST: 'ws://127.0.0.1:4455',
         OBS_PASSWORD: '',
 
         COMMAND: '!vox',
         BLACKLIST: 'vox_login',
-        START_MESSAGE: 'black mesa',
+        START_MESSAGE: 'doop _comma activated',
+        DEEOOO_REPLACE: '⚠',
 
         COOLDOWN: 10000,
     };
