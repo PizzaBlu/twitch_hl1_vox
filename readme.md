@@ -5,14 +5,16 @@ Let your viewers use the Half Life 1 VOX announcer to talk on stream.
 
 ### Disclaimers
 - I threw this together in a few hours, it's not perfect
-- You need to provide your own copy of the VOX sounds
+- You need to provide your own copy of the VOX sound files
 - Requires OBS
+- Only tested on windows (should work on any platform).
 
 ## Getting Started
 
 - Installing
+    - Make sure you have [NodeJS](nodejs.org) installed
     - Clone this repo and cd into it
-    - `npm install`
+    - run `npm install` to install dependancies
 - OBS
     - Enable Websockets in `tools > Websocket Server Settings`
     - Create an OBS Media Source
@@ -20,7 +22,7 @@ Let your viewers use the Half Life 1 VOX announcer to talk on stream.
         - If you want to hear the VOX: change `Monitor off` to `Monitor and Output` for this source in the advanced audio properties window
         - You may also want to change hardware decoding and close file when inactive
 - Configuration
-    - `npm run start` to create config file
+    - Run `npm run start` to create config file
     - Edit `config.ini` (see table)
 
 ### Running
