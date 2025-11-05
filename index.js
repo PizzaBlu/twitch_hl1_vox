@@ -18,8 +18,6 @@ const vox_words = get_vox_words(
     config.BLACKLIST.split(',').map(x=>x.trim()),
 );
 
-console.log(Object.keys(vox_words).join('\n'));
-
 function get_files(parts) {
     return parts.map(word=>vox_words[word]);
 }
