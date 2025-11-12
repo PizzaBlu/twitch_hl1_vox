@@ -42,12 +42,12 @@ OBS_TEXT_SOURCE_NAME | text source to write words to | `hl1_vox_text`
 OBS_HOST        | obs websocket server address      | `ws://127.0.0.1:4455`
 OBS_PASSWORD    | obs websocket server password     |
 START_MESSAGE   | If the bot's first word is the same as the last word played in obs it will break. `START_MESSAGE` can help prevent this issue. If this happens you can manually restart the source in OBS.      | `doop _comma activated`
-DEEOOO_REPLACE | symbol to use in place of sounds like `deeoo` | `⚠`
+DEEOO_REPLACE   | symbol to use in place of sounds like `deeoo` | `⚠`
 
 # Words
 There are 616 sound files in the vox folder for hl1. **[Complete list](./vox_words.md)**
 ### Special Sounds
-- `deeoo` `dadeda` `doop`
+- `deeoo` `dadeda` `doop` `woop`
 - `bizwarn` `buzwarn`
 - `,` `_comma`
 - `.` `_period`

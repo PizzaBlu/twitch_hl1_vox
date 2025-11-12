@@ -7,6 +7,8 @@ export function get_config() {
     const defaultConfig = {
         CHANNEL: '',
         PATH: '',
+        USERNAME: '',
+        PASSWORD: '',
         
         OBS_SOURCE_NAME: 'hl1_vox',
         OBS_TEXT_SOURCE_NAME: 'hl1_vox_text',
@@ -16,9 +18,12 @@ export function get_config() {
         COMMAND: '!vox',
         BLACKLIST: 'vox_login',
         START_MESSAGE: 'doop _comma activated',
-        DEEOOO_REPLACE: '⚠',
+        DEEOO_REPLACE: '⚠',
 
-        COOLDOWN: 10000,
+        COOLDOWN: 3000,
+        USER_COOLDOWN: 8000,
+
+        REJECT_CHARS: "!@#$%^&*(){}[]\\|<>/?:;\'\"`~",
     };
 
     if (!fs.existsSync(CONFIG_PATH)) {
